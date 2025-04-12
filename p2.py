@@ -43,6 +43,7 @@ print("\n\n COVARIANCE MATRIX:\n", df_cleaned.cov(numeric_only=True), "\n\n\n")
 heatmap_cols = ["Aggregate rating", "Votes", "Average Cost for two", "Longitude", "Latitude", "Country Code", "Restaurant ID"]
 corr_matrix = df_cleaned[heatmap_cols].corr()
 
+
 # Heatmap
 plt.figure(figsize=(10, 6))
 sns.heatmap(corr_matrix, annot=True, cmap="coolwarm", linewidths=0.5, fmt=".2f")
@@ -50,6 +51,7 @@ plt.title("Heatmap of Selected Numerical Columns")
 plt.xticks(rotation=45)
 plt.tight_layout()
 plt.show()
+
 
 
 # Outlier
@@ -151,5 +153,6 @@ plt.pie(price_counts, labels=labels, autopct='%1.1f%%', startangle=140, colors=s
 plt.title("Distribution of Restaurants by Price Range")
 plt.tight_layout()
 plt.show()
+
 
 
