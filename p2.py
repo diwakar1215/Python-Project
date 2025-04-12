@@ -10,8 +10,10 @@ print(df.describe(),"/n/n/n")
 print(df.info(),"/n/n/n")
 print(df.isnull().sum(),"/n/n/n") 
 
+
 columns_to_keep = ["Restaurant ID", "Restaurant Name", "Cuisines", "Has Table booking", "Has Online delivery", "Aggregate rating", "Price range",
 "Average Cost for two", "Votes", "Latitude", "Longitude","City","Country Code"]
+
 
 #cleaning
 df_cleaned = df[columns_to_keep].copy()
