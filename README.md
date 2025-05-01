@@ -1,4 +1,5 @@
 # Python-Project on Zomato Restaurant Dataset Analysis Using Python
+
 Objective 1: Identify Cuisines That Are Most Commonly Offered
 Goal: Identify which cuisines are most commonly offered by restaurants.
 Objective 2: Compare Table Booking Availability Across Restaurants
