@@ -8,4 +8,9 @@ Goal: Find out how widely available online delivery is across different countrie
 Objective 4: Compare Average Cost for Two Based on Delivery Type
 Goal: Compare the average cost for two between restaurants that offer online delivery and those that do not.
 Objective 5: Analyze Average Rating Distribution
+
+
 Goal: Analyze how restaurants are rated.
+
+
+
